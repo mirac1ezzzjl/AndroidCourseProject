@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\ZX50\AndroidStudioProjects\MyDayGram\app\src\main\assets"><file name="OPTIAgency-Gothic.otf" path="C:\Users\ZX50\AndroidStudioProjects\MyDayGram\app\src\main\assets\OPTIAgency-Gothic.otf"/></source><source path="C:\Users\ZX50\AndroidStudioProjects\MyDayGram\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\ZX50\AndroidStudioProjects\MyDayGram\app\src\debug\assets"/></dataSet></merger>
