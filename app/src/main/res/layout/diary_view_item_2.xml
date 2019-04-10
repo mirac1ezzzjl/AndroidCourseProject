@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/list_date_2"
+        android:textColor="@color/colorGray"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="1 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/list_week_2"
+        android:textColor="@color/colorGray"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="Monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cutoff"
+        android:text=" /"
+        android:textSize="16sp"
+        android:textColor="@color/colorGray"
+        android:textStyle="normal"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/list_text_2"
+        android:text="happy"
+        android:lineSpacingExtra="4dp"
+        android:textColor="@color/colorGray"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/rectangle_border_thin"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/itemDay"
+            android:text="MON"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="@color/colorGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--android:layout_toStartOf="@+id/itemDiary"-->
+            >
+        </TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"/>
+        <TextView
+            android:id="@+id/itemDate"
+            android:text="1"
+            android:textSize="26sp"
+            android:typeface="serif"
+            android:textColor="@color/colorGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--android:layout_below="@+id/itemDay"-->
+            <!--android:layout_toStartOf="@+id/itemDiary"-->
+            >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorGray"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/itemDiary"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:lineSpacingExtra="4dp"
+        android:text="I wanna sleep"
+        android:textSize="13sp"
+        android:textColor="@color/colorGray"
+        android:typeface="sans"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="11">
+    </TextView>
+</LinearLayout>
